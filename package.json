@@ -1,0 +1,22 @@
+{
+  "name": "zulip",
+  "version": "0.1.0",
+  "description": "Zulip API client library",
+  "main": "lib/zulip.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "coffee --compile --output lib/ src/",
+    "prepublish": "coffee --compile --output lib/ src/"
+  },
+  "keywords": [
+    "zulip"
+  ],
+  "author": "Zulip, Inc.",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  },
+  "dependencies": {
+    "request": "~2.27.0"
+  }
+}
