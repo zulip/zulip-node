@@ -1,6 +1,6 @@
 {
   "name": "zulip",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Zulip API client library",
   "main": "lib/zulip.js",
   "scripts": {
@@ -17,6 +17,6 @@
     "coffee-script": "~1.6.3"
   },
   "dependencies": {
-    "request": "~2.27.0"
+    "request": "^2.88.2"
   }
 }
